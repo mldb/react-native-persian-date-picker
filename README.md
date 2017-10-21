@@ -1,7 +1,12 @@
 # react-native-persian-date-picker
 a simple persian date picker for react native
 
+# ScreenShots : 
+<img src="http://up.upinja.com/8zxn9.png" width="350" height="600"/>
 
+.
+
+<img src="https://cdn.pbrd.co/images/GPY2PdA.png" width="350" height="600"/> 
 
 # Installing:
    # Step 1:
@@ -39,8 +44,8 @@ export default class App extends Component {
 | pickerTitleColor | رنگ تکست هدر انتخاب کننده      |    [0,0,0,1]    |
 | pickerBg | رنگ بک گراند انتخاب کننده      |    [255, 255, 255,255]    |
 | yearCount | تعداد سال های قابل نمایش      |    ۳۰    |
-| selectedDate | تاریخ از پیش انتخاب شده      |        |
-| minDate | تاریخ شروع نمایش      |        |
+| selectedDate | تاریخ از پیش انتخاب شده      |    '1396/7/19'    |
+| minDate | تاریخ شروع نمایش      |   '1396/1/1'    |
 | onConfirm | متدی که با زدن دکمه انتخاب تاریخ فراخوانده میشود      |        |
 | onCancel | متدی که با انصراف از انتخاب تاریخ فراخوانده میشود      |        |
 | onSelect | متدی که با هربار تغییر تاریخ فراخوانده میشود      |        |
