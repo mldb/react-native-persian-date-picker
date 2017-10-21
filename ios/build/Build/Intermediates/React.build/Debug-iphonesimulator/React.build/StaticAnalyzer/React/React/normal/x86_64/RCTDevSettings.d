@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTJSEnvironment.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/milad/ReactNativeProjects/PersianDatePicker/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h
