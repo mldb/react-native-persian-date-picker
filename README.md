@@ -29,7 +29,7 @@ export default class App extends Component {
 ```
 # props
 
-| prop          |      desc     | default  |
+| prop          |      desc     | example  |
 | ------------- |:-------------:| -----:   |
 |    style      | ظاهر کلی تاریخ انتخاب شده |     |
 | textStyle     | ظاهر متن تاریخ انتخاب شده       |       |
