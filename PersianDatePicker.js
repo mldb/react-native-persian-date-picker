@@ -179,23 +179,41 @@ static defaultProps ={
         return {year,day,month};
     }
 
-    _createDates(){    
+    _createDates(){
+        var MaxMonth;
+        var MaxYear;
+        var MaxDay;
+        if(this.props.maxDate==undefined){
+            maxDate=moment();
+            maxDate.add(3,'jYear');
+            var MaxMonth=maxDate.jMonth();
+            var MaxYear=maxDate.jYear();
+            var MaxDay=maxDate.jDate();
+        }else{
+            m =moment(this.props.maxDate,'jYYYY/jM/jD');
+            var MaxMonth=m.jMonth();
+            var MaxYear=m.jYear();
+            var MaxDay=m.jDate();
+        }
         m =this.props.minDate==undefined ? moment() : moment(this.props.minDate,'jYYYY/jM/jD');
         var month=m.jMonth();
         var year=m.jYear();
         var day=m.jDate();
+
         let data = [];
         let len = this.props.yearCount ;
-        for(let i=0;i<len;i++){
+        for(let i=0;m.jYear()<=MaxYear;i++){
             var _year=m.jYear();
             let months = [];
             for(let j=0;j<12;j++){
                 var daysLength= (moment.jIsLeapYear(_year)) ? 30 : 29 ;
                 if(j!=11) { daysLength=30; }
                 if(j<=5){daysLength=31}
+                if(_year==MaxYear&&j>MaxMonth) break;
                 if(year==_year&&j<month) continue;
                 let days=[];
                 for(let k=0;k<daysLength;k++){
+                    if(_year==MaxYear&&j==MaxMonth&&k==MaxDay) break;
                     if(_year==year&&month==j&&k<day-1) continue;
                     days.push(k+1);
                 }
