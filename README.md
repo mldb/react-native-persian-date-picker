@@ -1,3 +1,6 @@
+this library move to  https://github.com/mldb/rn-persian-date-picker
+
+
 # react-native-persian-date-picker
 a simple persian date picker for react native
 
